@@ -148,8 +148,9 @@
       </h2>
       <div class="content has-text-justified">
         <p>
-          Given 3D Gaussian representations in an oral scenario and instruction text describing the corresponding content, the hierarchical feature distillation assigns the 3D and 2D instance feature and hierarchical feature to each neural Gaussian. 
-          Multimodal semantic alignment learns the consistency between the 3D instance and the hierarchical feature, their corresponding rendered maps, and text embeddings for coherent open-vocabulary segmentation.
+          Given an RGB image, the coarse-to-fine rank modulation in SAM encoder distincts the lower and higher-rank subspaces and activates the corresponding components by using a hierarchical gating mechanism.
+          After that, automatic prompt generation is proposed to efficiently generate essential prompts for precise mask output, where the prompt candidate
+          generation identifies essential prompt locations and redundant prompt deletion enhances efficiency in prompt generation.
         </p>
       </div>
     </div>
