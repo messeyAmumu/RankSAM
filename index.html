@@ -166,19 +166,13 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            <!-- Instance segmentation in an oral scenario plays an important role in the dental digitization process.
-            3D Gaussian Splatting (3DGS) has emerged as an effective approach to real-time 3D segmentation tasks.
-            However, existing methods lack detailed comprehension of the scenes, which limits their ability to segment and interpret complex structures. Furthermore, it is difficult to integrate multimodal data to maintain semantic consistency across the 3D spatial and 2D image domains, degrading the quality of open-vocabulary oral instance segmentation.
-            To this end, a multi-granularity 3D-image-text alignment approach is proposed, including a hierarchical feature distillation (HFD) module and a multimodal semantic alignment (MSA) module.
-            HFD learns hierarchical instance features from 2D foundation models to enhance the 3D perception capability, while MSA aligns text embeddings with multi-granularity information of 3D Gaussians and their rendered instances and hierarchical maps.
-            The experimental results on two oral segmentation datasets indicate that our approach improves multiview consistency, semantic perception, and text fidelity by a margin compared to the prevailing approaches. -->
-            Instance segmentation in an oral scenario plays an important role in the dental digitization process. 
-            3D Gaussian Splatting (3DGS) has emerged as an effective approach to real-time 3D segmentation tasks. 
-            However, existing methods lack detailed comprehension of the scenes, which limits their ability to segment and interpret complex structures. 
-            Furthermore, it is difficult to integrate multimodal data to maintain semantic consistency across the 3D spatial and 2D image domains, degrading the quality of open-vocabulary oral instance segmentation. 
-            To this end, a multi-granularity 3D-image-text alignment approach is proposed, including a hierarchical feature distillation (HFD) module and a multimodal semantic alignment (MSA) module. 
-            HFD learns hierarchical instance features from 2D foundation models to enhance the 3D perception capability, while MSA aligns text embeddings with multi-granularity information of 3D Gaussians and their rendered instances and hierarchical maps. 
-            The experimental results on two oral segmentation datasets indicate that our approach improves multiview consistency, semantic perception, and text fidelity by a margin compared to the prevailing approaches. 
+            Zero-shot segmentation based plays a crucial role in neurocomputing such as embodied intelligence systems and autonomous driving technologies. 
+            However, current approaches struggle to preserve the intrinsic ability of SAM to generalize as input quality declines. 
+            In addition, prompt generation still faces an embarrassment in the balance between effectiveness and efficiency. 
+            Motivated by low-rank adaptation (LoRA) , we design RankSAM which integrates slim, adaptable modules into the middle layers of the frozen SAM framework. 
+            These modules dynamically fine-tune the operational rank of their weight matrices in response to input data, leveraging a trainable gating mechanism to selectively activate specific (rank-1) matrix components as needed.
+            In addition, a learnable prompt predictor is designed to learn and generate prompt confidence maps and point prompts, and any remaining prompts that would produce the same mask are filtered out to enhance efficiency in prompt generation.
+            The experimental results in multiple datasets indicate that our approach improves the mean intersection over union (mIoU) by a margin of 2.5-2.8\% compared to the prevailing approaches.
           </p>
         </div>
       </div>
